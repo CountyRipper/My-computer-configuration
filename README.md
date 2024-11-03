@@ -7,17 +7,20 @@ powered by [Josh Medeski's Dotfiles](https://github.com/joshmedeski/dotfiles)
 This is the home of my dotfiles. These are files that add custom configurations to my computer and applications, primarily the terminal. It includes 2 versions for MacOS and Linux.
 
 
-## Software
-
-- 🖥️ Terminal: [Iterms](https://iterm2.com/)
+## ./dotdiles
 - ✏️ Font: [Nerd Font](https://github.com/ryanoasis/nerd-fonts)
 - 🥥 Shell: [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
+- Shell theme: [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 - Bank Shell: [fish](https://fishshell.com)
 - Multiplexer: [tmux](https://github.com/tmux/tmux/wiki)
-- remote shell apps: [termius](https://termius.com/)
+- 🖥️ Terminal: [Iterms](https://iterm2.com/)
 - Editor: [Neovim](https://neovim.io)
     - Configuration: [LazyVim](https://www.lazyvim.org/)
 - macOS package manager: [Homebrew](https://brew.sh)
+---
+## Software
+- remote shell apps: [termius](https://termius.com/)
+
 - Linux package manager:
     - Ubuntu: [Debain apt](https://github.com/Debian/apt)
     - Arch Linux: [packman]()
@@ -36,7 +39,8 @@ This is the home of my dotfiles. These are files that add custom configurations 
 - Web Browser: [chrome](https://www.google.com/intl/en_us/chrome/)
 - Downloader: [Motrix](https://motrix.app/download)
 - Screenshot: [snipaste](https://www.snipaste.com/)
-- 
+- Calendar: [Notion Calendar](https://calendar.notion.so/)
+
 
 ## Embed Softwares
 ### development
@@ -49,7 +53,7 @@ This is the home of my dotfiles. These are files that add custom configurations 
   - compiler: [oracle-jdk](oracle.com/java/technologies/downloads/)
   - Virtual Machine: [graalvm](https://www.graalvm.org/downloads/)
 - Python: 
-  - compiler: [](https://www.python.org/)
+  - [compiler](https://www.python.org/)
   - manager: 
     - [anaconda](https://www.anaconda.com/)
     - [Pypi](https://pypi.org/)
@@ -60,14 +64,25 @@ This is the home of my dotfiles. These are files that add custom configurations 
 ## Hardware
 
 - Laptop1: [MacBook Air](https://www.apple.com/macbook-air/) (13-inch, 2021, Apple M1 Chip, 8GB RAM, 256GB ROM)
-- Laptop2: [Lenovo Legion R9000P](https://www.lenovo.com/us/en/legion/)(16-inch, 2021, R7-5800H, 32GB RAM, 1.5TB ROM)
+- Laptop2: [Lenovo Legion R9000P](https://www.lenovo.com/us/en/legion/)(16-inch, 2021, R7-5800H, 32GB RAM, 1.5TB ROM (sumsang sm961 500G, sumsang pm981a 1TB))
 - Pad: [Apple ipad pro 13](https://www.apple.com/ipad-pro/)(13-inch, 2024, Apple M4 Chip, 8GB RAM, 256GB ROM)
-- Mouse: Razer Viper 2 Pro
+- Mouse: 
+  - [Razer Viper 2 Pro](https://www.razer.com/gaming-mice/razer-viper-v2-pro)(PWM 3950 sensor)
+  - [MCHOS AX5](https://www.maicong.cn/product/AX5/60)(PWM 3395 sensor)
+
 
 ## Keyboards
 
-- [Zsa Moonlander](https://www.zsa.io/moonlander/) (daily driver)
-- [NuPhy Air75 (v1)](https://nuphy.com/products/air75-v2) (when I'm out)
-- [KBDcraft 001 Adam](https://kbdcraft.store/products/adam)
-- [IQUNIX L80 Cosmic Traveller](https://iqunix.store/collections/80-series/products/iqunix-l80-cosmic-traveller)
-- [Zsa Ergodox EZ](https://ergodox-ez.com)
+- [MCHOSE G75 v2](https://www.maicong.cn/product/G75/72)
+
+## Power charger
+- [CUKTECH GAN 30W transparent version](https://cuktech.com/collections/adaptor/products/a03-cuktech-30w-gan3-charger)
+
+## Earphone
+- [Apple airpods pro](https://www.apple.com/airpods-pro/)
+- [dunu dk3001pro](https://soundearth.jp/dk3001pro/)
+## Headphone
+- [Hifiman ananda](https://hifiman.com/products/detail/317)
+- [ATH-R70x](https://www.audio-technica.co.jp/product/ATH-R70x)
+
+
