@@ -13,10 +13,13 @@ This is the home of my dotfiles. These are files that add custom configurations 
 - Shell theme: [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 - Bank Shell: [fish](https://fishshell.com)
 - Multiplexer: [tmux](https://github.com/tmux/tmux/wiki)
-- 🖥️ Terminal: [Iterms](https://iterm2.com/)
+- 🖥️ Terminal: [Iterm2](https://iterm2.com/)
+- color scheme: Atom
 - Editor: [Neovim](https://neovim.io)
   - Configuration: [LazyVim](https://www.lazyvim.org/)
 - macOS package manager: [Homebrew](https://brew.sh)
+- nvim plugins:
+  - [neotab](https://github.com/kawre/neotab.nvim)
 - keymaps files:
 
 ```lua
@@ -60,7 +63,10 @@ keymap.set("i", "<C-z>", "<C-o>u", { noremap = true, silent = true }) --撤销�
   - Online: [notion](https://www.notion.so/)
   - Knowledge: [Obsidian](https://obsidian.md/)
   - Markdown: [typora](https://typora.io/)
-  - Editor: [coteditor](https://coteditor.com/)
+  - Editor:
+  - [coteditor](https://coteditor.com/)
+  - [vscode](https://code.visualstudio.com/)
+  - [neovie](https://neovim.io/)
 - PDF reader: [pdf expert](https://pdfexpert.com/)
 - Paper reader: [zetore 7](https://www.zotero.org/)
 - Knowledge map: [xmind](https://xmind.app/)
@@ -87,6 +93,9 @@ keymap.set("i", "<C-z>", "<C-o>u", { noremap = true, silent = true }) --撤销�
     - [anaconda](https://www.anaconda.com/)
     - [Pypi](https://pypi.org/)
     - [pipx](https://pipx.pypa.io/stable/)
+- Node.js:
+  - [compiler](https://nodejs.org/)
+  - manager: [npm](https://www.npmjs.com/)
 
 ## Hardware
 
@@ -104,6 +113,7 @@ keymap.set("i", "<C-z>", "<C-o>u", { noremap = true, silent = true }) --撤销�
 ## Power charger
 
 - [CUKTECH GAN 30W transparent version](https://cuktech.com/collections/adaptor/products/a03-cuktech-30w-gan3-charger)
+- [Anker GAN Nano 65W](https://www.anker.com/products/a2663)
 
 ## Earphone
 
