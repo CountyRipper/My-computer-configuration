@@ -24,7 +24,7 @@ This is the home of my dotfiles. These are files that add custom configurations 
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 local keymap = vim.keymap
-keymap.set("i", "jk", "<Esc>")
+keymap.set("i", "ii", "<Esc>")
 keymap.set("i", "<C-w>", "<C-o>w", { noremap = true, silent = true })
 -- 移动到单词开头并在单词前进入插入模式
 vim.keymap.set("i", "<C-b>", "<Esc>bi", { noremap = true, silent = true })
