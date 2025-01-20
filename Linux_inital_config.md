@@ -57,11 +57,12 @@ plugins=(
     zsh-autosuggestions
 )
 
-# install spaceship
-# for ho-my-zsh
-git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
-ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
-# Set ZSH_THEME="spaceship" in your .zshrc.
+# install powerlevel10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
+Open ~/.zshrc, find the line that sets ZSH_THEME, and change its value to "powerlevel10k/powerlevel10k"
+
+source ~/.zshrc
 ```
 
 There are some website for install.
@@ -74,10 +75,24 @@ how to install spaceship():
 
 [GitHub - spaceship-prompt/spaceship-prompt: Minimalistic, powerful and extremely customizable Zsh prompt](https://github.com/spaceship-prompt/spaceship-prompt)
 
-how to install fira-code
+how to install fira-code-nerd-ont
 
 [GitHub - tonsky/FiraCode: Free monospaced font with programming ligatures](https://github.com/tonsky/FiraCode)
 
+## AI and Machine Learning lib
+```bash
+# install miniconda 
+wget https://repo.anaconda.com/miniconda/
+# run script
+./Miniconda3-latest-Linux-x86_64.sh
+source ~/.zshrc
 
+# install cuda-tool-kit
+# https://developer.nvidia.com/cuda-downloads
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/cuda-keyring_1.1-1_all.deb
+sudo dpkg -i cuda-keyring_1.1-1_all.deb
+sudo apt-get update
+sudo apt-get -y install cuda-toolkit-12-6
 
+```
 ## install smb,ssh, and frp
